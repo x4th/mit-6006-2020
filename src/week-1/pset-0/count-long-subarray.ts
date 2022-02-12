@@ -28,5 +28,3 @@ export default function countLongSubarray(A: number[]): number {
 
   return count
 }
-
-console.log('test')

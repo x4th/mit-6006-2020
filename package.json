@@ -7,6 +7,7 @@
     "check-types": "tsc --noEmit",
     "format": "prettier --write \"src/**/*.ts\"",
     "format:check": "prettier --check \"src/**/*.ts\"",
+    "lint": "eslint \"src/**/*.ts\"",
     "test": "jest",
     "prepare": "husky install"
   },
@@ -25,9 +26,13 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-typescript": "^7.16.7",
     "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "eslint": "^8.9.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.0",
     "jest": "^27.5.1",
     "prettier": "^2.5.1",
-    "typescript": "^4.5.5",
-    "husky": "^7.0.0"
+    "typescript": "^4.5.5"
   }
 }
