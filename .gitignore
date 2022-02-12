@@ -1,5 +1,9 @@
 # Dependencies
 node_modules/
 
+# Emacs
+*~
+\#*\#
+
 # Misc
 .DS_Store
