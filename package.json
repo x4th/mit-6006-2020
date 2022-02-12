@@ -1,0 +1,23 @@
+{
+  "name": "mit-6006-2020",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\"",
+    "format:check": "prettier --check \"src/**/*.ts\"",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x4th/mit-6006-2020"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x4th/mit-6006-2020/issues"
+  },
+  "homepage": "https://github.com/x4th/mit-6006-2020#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
