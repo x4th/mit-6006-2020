@@ -1,16 +1,16 @@
 /**
  *
- * @param A list of positive integers
+ * @param a list of positive integers
  * @returns number of longest increasing subarrays of A
  */
-export default function countLongSubarray(A: number[]): number {
+export default function countLongSubarray(a: number[]): number {
   let count = 0
   let length = 0
   let maxLength = 0
 
-  for (let i = 0; i <= A.length; i++) {
-    if (i < A.length) {
-      if (i == 0 || A[i] > A[i - 1]) {
+  for (let i = 0; i <= a.length; i++) {
+    if (i < a.length) {
+      if (i == 0 || a[i] > a[i - 1]) {
         length++
         continue
       }
